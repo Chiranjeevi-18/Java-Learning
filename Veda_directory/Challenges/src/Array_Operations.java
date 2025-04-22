@@ -1,6 +1,8 @@
 package Challenges.src;
+
 import java.util.Scanner;
-public class Array_Operation {
+
+public class Array_Operations {
 
 
         // Method to calculate sum of array elements
@@ -86,6 +88,8 @@ public class Array_Operation {
 
             scanner.close();
         }
+
+
 
 
 
