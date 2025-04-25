@@ -17,15 +17,15 @@ import java.util.Scanner;
             first = first - second;
             System.out.println("After Swapping: First = " + first + ", Second = " + second);
             int largest = Math.max(first, second);
-            System.out.println("Largest Number = " + largest);
+            System.out.println("Largest JavaSyntaxAndBasics.Number = " + largest);
             int convertedDecimal = (int) decimalNumber;
-            System.out.println("Decimal Number as Integer = " + convertedDecimal);
+            System.out.println("Decimal JavaSyntaxAndBasics.Number as Integer = " + convertedDecimal);
             first++;
             second--;
-            System.out.println("Incremented First Number = " + first);
-            System.out.println("Decremented Second Number = " + second);
+            System.out.println("Incremented First JavaSyntaxAndBasics.Number = " + first);
+            System.out.println("Decremented Second JavaSyntaxAndBasics.Number = " + second);
             int bitwiseAnd = first & second;
-            System.out.printf("Bitwise AND of First and Second Number = %02d\n", bitwiseAnd);
+            System.out.printf("Bitwise AND of First and Second JavaSyntaxAndBasics.Number = %02d\n", bitwiseAnd);
 
             scanner.close();
         }
