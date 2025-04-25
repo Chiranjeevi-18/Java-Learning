@@ -11,10 +11,10 @@ public class controlLoops
         int a= sc.nextInt();
         if (a>0)
         {
-            System.out.println("JavaSyntaxAndBasics.Number is positive");
+            System.out.println("Number is positive");
         }
         else{
-            System.out.println("JavaSyntaxAndBasics.Number is negative");
+            System.out.println("Number is negative");
         }
         switch (a){
             case 1:
@@ -43,7 +43,7 @@ public class controlLoops
                 break;
         }
 
-       for(int n=1;n<6;n++)
+       for(int n=1;n<=a;n++)
         {
             System.out.println("first 5 even numbers:" + n*2);
 
